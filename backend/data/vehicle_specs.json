@@ -1,0 +1,347 @@
+{
+  "_meta": {
+    "description": "Local vehicle technical specifications database",
+    "version": "1.0.0",
+    "sources": ["OEM databases", "NHTSA vPIC", "Manufacturer public data"]
+  },
+  "brands": {
+    "Renault": {
+      "models": {
+        "Clio": {
+          "variants": {
+            "IV": {
+              "years": {
+                "2012": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 75, "torque": 200, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": false },
+                "2013": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 75, "torque": 200, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": false },
+                "2014": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 75, "torque": 200, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": false },
+                "2015": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2016": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 245, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 245, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 100", "engine_size": 1.0, "horsepower": 100, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 100", "engine_size": 1.0, "horsepower": 100, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            },
+            "V": {
+              "years": {
+                "2019": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Megane": {
+          "variants": {
+            "III": {
+              "years": {
+                "2012": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2013": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2014": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2015": { "engine_code": "R9M", "engine_size": 1.6, "horsepower": 130, "torque": 320, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "R9M", "engine_size": 1.6, "horsepower": 130, "torque": 320, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            },
+            "IV": {
+              "years": {
+                "2016": { "engine_code": "R9M", "engine_size": 1.6, "horsepower": 130, "torque": 320, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "R9M", "engine_size": 1.6, "horsepower": 130, "torque": 320, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "R9M", "engine_size": 1.6, "horsepower": 130, "torque": 320, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "TCe 140", "engine_size": 1.33, "horsepower": 140, "torque": 260, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 140", "engine_size": 1.33, "horsepower": 140, "torque": 260, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 140", "engine_size": 1.33, "horsepower": 140, "torque": 260, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 115", "engine_size": 1.33, "horsepower": 115, "torque": 220, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 115", "engine_size": 1.33, "horsepower": 115, "torque": 220, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Duster": {
+          "variants": {
+            "I": {
+              "years": {
+                "2014": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2015": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2016": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2017": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 245, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            },
+            "II": {
+              "years": {
+                "2018": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 245, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 150", "engine_size": 1.33, "horsepower": 150, "torque": 250, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 150", "engine_size": 1.33, "horsepower": 150, "torque": 250, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Sandero": {
+          "variants": {
+            "II": {
+              "years": {
+                "2015": { "engine_code": "K7J", "engine_size": 1.4, "horsepower": 75, "torque": 112, "fuel_system": "MPFI", "ecu_type": "Bosch Motronic", "obd_protocol": "ISO 9141", "abs": true, "esp": false },
+                "2016": { "engine_code": "K7J", "engine_size": 1.4, "horsepower": 75, "torque": 112, "fuel_system": "MPFI", "ecu_type": "Bosch Motronic", "obd_protocol": "ISO 9141", "abs": true, "esp": false },
+                "2017": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            },
+            "III": {
+              "years": {
+                "2021": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Logan": {
+          "variants": {
+            "II": {
+              "years": {
+                "2016": { "engine_code": "K7J", "engine_size": 1.4, "horsepower": 75, "torque": 112, "fuel_system": "MPFI", "ecu_type": "Bosch Motronic", "obd_protocol": "ISO 9141", "abs": true, "esp": false },
+                "2017": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Peugeot": {
+      "models": {
+        "208": {
+          "variants": {
+            "I": {
+              "years": {
+                "2012": { "engine_code": "EB2", "engine_size": 1.2, "horsepower": 82, "torque": 118, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2013": { "engine_code": "EB2", "engine_size": 1.2, "horsepower": 82, "torque": 118, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2014": { "engine_code": "EB2", "engine_size": 1.2, "horsepower": 82, "torque": 118, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2015": { "engine_code": "EB2D", "engine_size": 1.2, "horsepower": 110, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "EB2D", "engine_size": 1.2, "horsepower": 110, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "EB2D", "engine_size": 1.2, "horsepower": 110, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "EB2DTS", "engine_size": 1.2, "horsepower": 130, "torque": 230, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "EB2DTS", "engine_size": 1.2, "horsepower": 130, "torque": 230, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            },
+            "II": {
+              "years": {
+                "2019": { "engine_code": "EB2ADTD", "engine_size": 1.2, "horsepower": 100, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "EB2ADTD", "engine_size": 1.2, "horsepower": 100, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "EB2ADTD", "engine_size": 1.2, "horsepower": 100, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "EB2ADTD", "engine_size": 1.2, "horsepower": 100, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "EB2ADTD", "engine_size": 1.2, "horsepower": 100, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "301": {
+          "variants": {
+            "I": {
+              "years": {
+                "2014": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2015": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "EC5", "engine_size": 1.6, "horsepower": 115, "torque": 150, "fuel_system": "MPFI", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "2008": {
+          "variants": {
+            "I": {
+              "years": {
+                "2015": { "engine_code": "EB2D", "engine_size": 1.2, "horsepower": 110, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "EB2D", "engine_size": 1.2, "horsepower": 110, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "EB2D", "engine_size": 1.2, "horsepower": 110, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "EB2DTS", "engine_size": 1.2, "horsepower": 130, "torque": 230, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "EB2DTS", "engine_size": 1.2, "horsepower": 130, "torque": 230, "fuel_system": "Direct Injection", "ecu_type": "Bosch ME17", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Dacia": {
+      "models": {
+        "Logan": {
+          "variants": {
+            "II": {
+              "years": {
+                "2016": { "engine_code": "K7J", "engine_size": 1.4, "horsepower": 75, "torque": 112, "fuel_system": "MPFI", "ecu_type": "Bosch Motronic", "obd_protocol": "ISO 9141", "abs": true, "esp": false },
+                "2017": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Sandero": {
+          "variants": {
+            "II": {
+              "years": {
+                "2015": { "engine_code": "K7J", "engine_size": 1.4, "horsepower": 75, "torque": 112, "fuel_system": "MPFI", "ecu_type": "Bosch Motronic", "obd_protocol": "ISO 9141", "abs": true, "esp": false },
+                "2016": { "engine_code": "K7J", "engine_size": 1.4, "horsepower": 75, "torque": 112, "fuel_system": "MPFI", "ecu_type": "Bosch Motronic", "obd_protocol": "ISO 9141", "abs": true, "esp": false },
+                "2017": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "H4B", "engine_size": 1.5, "horsepower": 90, "torque": 220, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "TCe 90", "engine_size": 0.9, "horsepower": 90, "torque": 135, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 90", "engine_size": 1.0, "horsepower": 90, "torque": 160, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Duster": {
+          "variants": {
+            "I": {
+              "years": {
+                "2014": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2015": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2016": { "engine_code": "K9K", "engine_size": 1.5, "horsepower": 110, "torque": 240, "fuel_system": "Common Rail", "ecu_type": "Siemens SID307", "obd_protocol": "ISO 14230", "abs": true, "esp": true },
+                "2017": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 245, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            },
+            "II": {
+              "years": {
+                "2018": { "engine_code": "H5B", "engine_size": 1.5, "horsepower": 115, "torque": 245, "fuel_system": "Common Rail", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "TCe 150", "engine_size": 1.33, "horsepower": 150, "torque": 250, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "TCe 150", "engine_size": 1.33, "horsepower": 150, "torque": 250, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "TCe 130", "engine_size": 1.33, "horsepower": 130, "torque": 240, "fuel_system": "Direct Injection", "ecu_type": "Continental SID311", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Toyota": {
+      "models": {
+        "Corolla": {
+          "variants": {
+            "E170": {
+              "years": {
+                "2015": { "engine_code": "2ZR-FE", "engine_size": 1.8, "horsepower": 132, "torque": 173, "fuel_system": "MPFI", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "2ZR-FE", "engine_size": 1.8, "horsepower": 132, "torque": 173, "fuel_system": "MPFI", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "2ZR-FE", "engine_size": 1.8, "horsepower": 132, "torque": 173, "fuel_system": "MPFI", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "2ZR-FE", "engine_size": 1.8, "horsepower": 132, "torque": 173, "fuel_system": "MPFI", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "M20A-FKS", "engine_size": 2.0, "horsepower": 169, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "M20A-FKS", "engine_size": 2.0, "horsepower": 169, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "M20A-FKS", "engine_size": 2.0, "horsepower": 169, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "M20A-FKS", "engine_size": 2.0, "horsepower": 169, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "M20A-FKS", "engine_size": 2.0, "horsepower": 169, "torque": 205, "fuel_system": "Direct Injection", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Hilux": {
+          "variants": {
+            "VIII": {
+              "years": {
+                "2015": { "engine_code": "2KD-FTV", "engine_size": 2.5, "horsepower": 144, "torque": 343, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "2KD-FTV", "engine_size": 2.5, "horsepower": 144, "torque": 343, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "2GD-FTV", "engine_size": 2.4, "horsepower": 150, "torque": 400, "fuel_system": "Common Rail", "ecu_type": "Toyota Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Hyundai": {
+      "models": {
+        "Tucson": {
+          "variants": {
+            "TL": {
+              "years": {
+                "2015": { "engine_code": "G4FD", "engine_size": 2.0, "horsepower": 155, "torque": 192, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "G4FD", "engine_size": 2.0, "horsepower": 155, "torque": 192, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "G4FD", "engine_size": 2.0, "horsepower": 155, "torque": 192, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "G4FD", "engine_size": 2.0, "horsepower": 155, "torque": 192, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "G4FJ", "engine_size": 1.6, "horsepower": 177, "torque": 265, "fuel_system": "Direct Injection", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "G4FJ", "engine_size": 1.6, "horsepower": 177, "torque": 265, "fuel_system": "Direct Injection", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "G4FJ", "engine_size": 1.6, "horsepower": 177, "torque": 265, "fuel_system": "Direct Injection", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "G4FJ", "engine_size": 1.6, "horsepower": 177, "torque": 265, "fuel_system": "Direct Injection", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "G4FJ", "engine_size": 1.6, "horsepower": 177, "torque": 265, "fuel_system": "Direct Injection", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        },
+        "Accent": {
+          "variants": {
+            "HC": {
+              "years": {
+                "2012": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": false },
+                "2013": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": false },
+                "2014": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2015": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2021": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2022": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2023": { "engine_code": "G4FC", "engine_size": 1.6, "horsepower": 123, "torque": 155, "fuel_system": "MPFI", "ecu_type": "Hyundai Denso", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Volkswagen": {
+      "models": {
+        "Golf": {
+          "variants": {
+            "VII": {
+              "years": {
+                "2013": { "engine_code": "EA211", "engine_size": 1.4, "horsepower": 122, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2014": { "engine_code": "EA211", "engine_size": 1.4, "horsepower": 122, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2015": { "engine_code": "EA211", "engine_size": 1.4, "horsepower": 125, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2016": { "engine_code": "EA211", "engine_size": 1.4, "horsepower": 125, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2017": { "engine_code": "EA211", "engine_size": 1.4, "horsepower": 125, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2018": { "engine_code": "EA211", "engine_size": 1.4, "horsepower": 125, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2019": { "engine_code": "EA211 Evo", "engine_size": 1.5, "horsepower": 130, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true },
+                "2020": { "engine_code": "EA211 Evo", "engine_size": 1.5, "horsepower": 130, "torque": 200, "fuel_system": "Direct Injection", "ecu_type": "Bosch MED17", "obd_protocol": "ISO 15765", "abs": true, "esp": true }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
